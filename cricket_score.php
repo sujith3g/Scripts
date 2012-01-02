@@ -5,7 +5,7 @@
 <title>Untitled Document</title>
 </head>
 <?php
-include_once "../sms_alert/cURL.php";
+include_once "cURL.php";
 
 $f =fopen("../cric4cet/LINK.txt",'r');
 
