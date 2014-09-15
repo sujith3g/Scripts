@@ -1,4 +1,4 @@
-#list all files in home folder
+#A script to arrange files in the ~/Downloads folder
 a=1
 b=1
 for filename in  ~/Downloads/*
