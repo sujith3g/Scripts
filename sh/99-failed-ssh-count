@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# keep this file in /etc/update-motd.d/ directory
+
+A=$(grep sshd.\*Failed /var/log/auth.log | wc -l)
+B=$(grep sshd.*Did /var/log/auth.log | wc -l)
+echo "$((A+B)) Failed ssh login attempt(s) found."
